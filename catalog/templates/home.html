@@ -1,0 +1,9 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Welcome to the Library</h1>
+  <p>We have <strong>{{ num_books }}</strong> books available.</p>
+  <p>There are <strong>{{ num_instances }}</strong> book copies in total.</p>
+  <p>There are <strong>{{ num_authors }}</strong> authors in the database.</p>
+  <p>We offer <strong>{{ num_genres }}</strong> different genres.</p>
+{% endblock %}
